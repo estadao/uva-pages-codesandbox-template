@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Modelo de utilização do CodeSandbox para editar arquivos de projetos do Uva Pages.",
   "scripts": {
-    "dev": "http-server"
+    "dev": "http-server",
+    "format": "prettier --write ./*.{css,js}",
+    "lint": "prettier --check ./*.{css,js} && eslint --fix ./*.js . ; stylelint --fix ./*.css"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,18 @@
   "homepage": "https://github.com/estadao/uva-pages-codesandbox-template#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "http-server": "^0.12.3"
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "http-server": "^0.12.3",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.4.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0"
   },
   "config": {
     "commitizen": {

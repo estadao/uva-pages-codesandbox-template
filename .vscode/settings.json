@@ -1,0 +1,22 @@
+{
+  // Disable CSS validations (handled by stylelint).
+  "css.validate": false,
+
+  // Run code actions on save.
+  "editor.codeActionsOnSave": {
+    // Fix ESLint issues.
+    "source.fixAll.eslint": true,
+
+    // Fix stylelint issues.
+    "source.fixAll.stylelint": true
+  },
+
+  // Define Prettier as the default formatter.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Format file on save.
+  "editor.formatOnSave": true,
+
+  // Disable SCSS validations (handled by stylelint).
+  "scss.validate": false
+}

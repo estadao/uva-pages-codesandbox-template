@@ -1,0 +1,27 @@
+{
+  "name": "uva-pages-codesandbox-template",
+  "version": "1.0.0",
+  "description": "Modelo de utilização do CodeSandbox para editar arquivos de projetos do Uva Pages.",
+  "scripts": {
+    "dev": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estadao/uva-pages-codesandbox-template.git"
+  },
+  "author": "Carlos Marin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estadao/uva-pages-codesandbox-template/issues"
+  },
+  "homepage": "https://github.com/estadao/uva-pages-codesandbox-template#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "http-server": "^0.12.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
